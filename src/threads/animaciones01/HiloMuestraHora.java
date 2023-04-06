@@ -19,20 +19,7 @@ public class HiloMuestraHora extends Thread {
 	}
 	
 	public void run(){
-		
-		SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
-		while (true) {
-			
-			Date fechaActual = new Date();	
-			lblHora.setText(sdf.format(fechaActual));	
-			try {
-				Thread.sleep(1000);
-			} catch (InterruptedException e) {
 
-				e.printStackTrace();
-			}
-			
-		}
 		
 	}
 

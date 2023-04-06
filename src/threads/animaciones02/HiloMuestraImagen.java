@@ -14,21 +14,7 @@ public class HiloMuestraImagen extends Thread {
 
 	
 	public void run(){
-		int x = 0;
-		while(true){
-			x ++;
-			lblImagen.setIcon(new ImageIcon(HiloMuestraImagen.class.getResource("/images/T"+ x + ".gif")));
-			
-			try {
-				Thread.sleep(1000);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-			
-			if (x == 10 ) {  x = 0; }
-			
-		}
+		
 		
 		
 	}
