@@ -42,7 +42,7 @@ public class Cliente {
 		}
 		
 		Long tiempoDespues = System.currentTimeMillis();
-		System.out.println("SE DEMORO" + (tiempoDespues - tiempoAntes));
+		System.out.println("SE DEMORO >> " + (tiempoDespues - tiempoAntes));
 		
 	}
 }

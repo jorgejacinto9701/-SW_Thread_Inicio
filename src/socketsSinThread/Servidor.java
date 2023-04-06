@@ -23,7 +23,7 @@ public class Servidor {
 				BufferedReader entrada = new BufferedReader(new InputStreamReader(cliente.getInputStream()));
 				PrintWriter salida = new PrintWriter(cliente.getOutputStream(),true);
 
-				Thread.sleep(100);
+				Thread.sleep(30);
 				
 				String cadena = entrada.readLine();
 				System.out.println(cadena);
