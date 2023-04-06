@@ -20,17 +20,7 @@ public class HiloMuestraImagen extends Thread {
 	
 	public void run(){
 		while(true){
-			x = x + 1;
-			if(x>9)
-				x=1;
-			imagen = applet.getImage(applet.getCodeBase(),"images/T"+ x +".gif");
 			
-			applet.repaint();
-			System.out.println("Cambio de Imagen T" + x + ".gif");
-			try {
-				HiloMuestraImagen.sleep(500);
-			} catch (Exception e) {
-			}
 		}
 		
 		

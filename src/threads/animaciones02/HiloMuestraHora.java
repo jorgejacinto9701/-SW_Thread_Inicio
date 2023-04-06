@@ -17,15 +17,7 @@ public class HiloMuestraHora extends Thread {
 	}
 	
 	public void run(){
-		while(true){
-			fechaHoraActual = new Date();
-			applet.repaint();
-			System.out.println("Se crea nueva Hora" + fechaHoraActual);
-			try {
-				HiloMuestraHora.sleep(500);
-			} catch (Exception e) {
-			}
-		}
+		
 	}
 
 
